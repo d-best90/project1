@@ -1,15 +1,30 @@
 import type { ClothingProduct } from "../../data (3)";
-import ItemCard from "./itemscard";
-
-interface itemscontainer props {
-
-    itemData: ItemCard[];
 
 
-        export default function itemscontainer
+interface itemscontainerprops {
 
-    export default function itemscontainer({ itemData }: itemsContainerProps) {
-  return (
-    <div className="CartContainer">
+    itemData: ClothingProduct[];
+    itemsData from "./itemscard";
+
+
+       
+   
+    <div className="itemsContainer">
       {
-}
+
+        {itemData.map((item) => (
+
+        <itemsCard key={item.id} {...item} />
+        ))}
+
+
+        <h2>
+            {ItemsData.lenght > 0}
+            ? 'cart Total: ${CharacterData.reduce((acc + item.total=o .toFixed(2)}$`
+            : the checkout has nothing in it }
+            </h2>
+            </div>
+    );
+
+    }
+    
