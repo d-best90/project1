@@ -13,4 +13,5 @@ handleChangePrice: (price: number) => void;
 handleAddToCart: () => void;
 } 
 
-export default function 
+
+
