@@ -29,15 +29,13 @@ itemQuantity,
         <h2>{name}</h2>
         <p>quantity: {quantity} </p>
 
-        {
+        
          <p>price: {price.toFixed(2)}$</p>
-         <p>price: {total.toFixed(2)}$</p>
+         <p>price: {price * itemQuantity.toFixed(2)}$</p>
          </div>
 
-        ):
-
-
-        }
+        );
+}
         
         
 
