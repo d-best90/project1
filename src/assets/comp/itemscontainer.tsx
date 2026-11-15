@@ -4,7 +4,7 @@ import type { ClothingProduct } from "../../data (3)";
 interface itemscontainerprops {
 
     itemData: ClothingProduct[];
-    itemsData from "./itemscard";
+    
 
 
        
